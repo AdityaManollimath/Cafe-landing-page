@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+.logoStyle{
+    color: #b37012;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+nav{
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:2vw;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.MenuItems{
+    list-style-type: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding-right: 2vw;
+}
+.MainBody{
+    height: 91vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085') center/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    background-color: #b37012;
+    color: white;
+    border: none;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+button:hover{
+    transform: translateY(-3px);
+    background-color: #80500c;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #b37012;
+}
+.FooditemsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.Fooditems{
+    height: 110vh;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    height: 50vh;
+    width: 30vw;
+    margin: 20px;
+    border-radius:15px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.box:hover{
+    transform: translateY(-10px);
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.2) ;
+}
+.imageFit{
+    height: 40vh;
+    width: 100vh;
+    object-fit: cover;
+}
+.story{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(253, 243, 230);
+}
+.visit-us{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 100vh;
+    background-color:#2c2420;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.map{
+    width: 95%;
+    height: 35vh;
+}
+.map iframe{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.businessDetails{
+    display: flex;
+    width: 95%;
+    height: 50vh;
+}
+.footer-items{
+    width: 50vh;
+    font-size: 17pxpx;
+    padding: 30px;
+    color: white;
+    line-height: 25px;
+}
+.quickLink-achors{
+    display: flex;
+    flex-direction: column;
+}
+.quickLink-achors a{
+    color: white;
+}
+[type]{
+    width: 30vh;
+    height: 4vh;
+}
+.social-media-icons a{
+    color: white;
+}
+
